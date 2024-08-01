@@ -1,0 +1,29 @@
+{
+  "name": "cf2dns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "rm -rf lib && tsc"
+  },
+  "bin": {
+    "cf2dns": "./lib/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "volta": {
+    "node": "18.20.4",
+    "npm": "10.8.2"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "tencentcloud-sdk-nodejs": "^4.0.908",
+    "typescript": "^5.5.4",
+    "undici": "^6.19.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.42"
+  }
+}
